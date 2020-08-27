@@ -4,43 +4,45 @@ public class Village {
     public static void main(String args[]) {
         /*
          * To print particular street and houseNum*/
-        int street = 1;
+        int street = 2;
         int houseNum;
+
         if (street == 1) {
+            int visitingHouse=95;
             for (houseNum = 1; houseNum <= 100; houseNum++) {
-                houseNum = 25;
-                if (houseNum == 95) {
-                    System.out.println("The house Number is " + houseNum);
+                if (visitingHouse == houseNum) {
+                    System.out.println("The house Number is " +visitingHouse);
+                    break;
                 } else {
-                    System.out.println("The house number is not provided in this street");
+                    System.out.println("The house number is not provided ");
                 }
-                break;
             }
         } else if (street == 2) {
             for (houseNum = 1; houseNum <= 75; houseNum++) {
-                houseNum = 76;
-                if (houseNum == 75) {
-                    System.out.println("The house Number is " + houseNum);
+                int visitingHouse = 73;
+                if (houseNum == visitingHouse) {
+                    System.out.println("The house Number is " +visitingHouse);
+                    break;
                 } else {
                     System.out.println("The house Number is not provided in this street");
                 }
-                break;
             }
         } else if (street == 3) {
             for (houseNum = 1; houseNum <= 10; houseNum++) {
-                houseNum = 10;
-                if (houseNum == 10) {
-                    System.out.println("The house Number is " + houseNum);
+                int visitingHouse= 10;
+                if (houseNum == visitingHouse) {
+                    System.out.println("The house Number is " + visitingHouse);
+                    break;
                 } else {
                     System.out.println(" the house number is not provided in this street");
                 }
-                break;
             }
         } else if (street == 4) {
             for (houseNum = 1; houseNum <= 10; houseNum++) {
-                houseNum = 1;
-                if (houseNum == 1) {
-                    System.out.println("The house Number is " + houseNum);
+                int visitingHouse = 1;
+                if (houseNum == visitingHouse) {
+                    System.out.println("The house Number is " + visitingHouse);
+                    break;
                 } else {
                     System.out.println("The house Number is not provided in this street");
                 }
