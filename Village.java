@@ -4,11 +4,11 @@ public class Village {
     public static void main(String args[]) {
         /*
          * To print particular street and houseNum*/
-        int street = 3;
+        int street = 1;
         int houseNum;
         if (street == 1) {
             for (houseNum = 1; houseNum <= 100; houseNum++) {
-                houseNum = 95;
+                houseNum = 25;
                 if (houseNum == 95) {
                     System.out.println("The house Number is " + houseNum);
                 } else {
@@ -21,33 +21,30 @@ public class Village {
                 houseNum = 76;
                 if (houseNum == 75) {
                     System.out.println("The house Number is " + houseNum);
-                    break;
                 } else {
                     System.out.println("The house Number is not provided in this street");
-                    break;
                 }
+                break;
             }
         } else if (street == 3) {
             for (houseNum = 1; houseNum <= 10; houseNum++) {
                 houseNum = 10;
                 if (houseNum == 10) {
                     System.out.println("The house Number is " + houseNum);
-                    break;
                 } else {
                     System.out.println(" the house number is not provided in this street");
-                    break;
                 }
+                break;
             }
         } else if (street == 4) {
             for (houseNum = 1; houseNum <= 10; houseNum++) {
                 houseNum = 1;
                 if (houseNum == 1) {
                     System.out.println("The house Number is " + houseNum);
-                    break;
                 } else {
                     System.out.println("The house Number is not provided in this street");
-                    break;
                 }
+                break;
             }
         } else {
             System.out.println("This street number is not provided");
