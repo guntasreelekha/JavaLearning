@@ -38,7 +38,7 @@ public class Village {
                 }
             }
         } else if (street == 4) {
-            for (houseNum = 1; houseNum <= 10; houseNum++) {
+            for (houseNum = 1; houseNum <= 20; houseNum++) {
                 int visitingHouse = 1;
                 if (houseNum == visitingHouse) {
                     System.out.println("The house Number is " + visitingHouse);
@@ -46,7 +46,6 @@ public class Village {
                 } else {
                     System.out.println("The house Number is not provided in this street");
                 }
-                break;
             }
         } else {
             System.out.println("This street number is not provided");
