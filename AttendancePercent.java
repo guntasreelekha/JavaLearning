@@ -1,27 +1,27 @@
 package com.concent;
 
-public class Example {
+public class AttendancePercent {
     public static void main(String args[]) {
         char ch = 'B';
-        boolean CSE = true;
-        float totalStudents=60;
-        float presentStudentsA,presentStudentsB ;
+        boolean cse = true;
+        float totalStudents = 60;
+        float presentStudentsA, presentStudentsB;
         float percentage;
-        if (CSE) {
-            presentStudentsA=50;
-            presentStudentsB=45;
+        if (cse) {
+            presentStudentsA = 50;
+            presentStudentsB = 45;
             if (ch == 'A') {
-                System.out.println("Total students in  CSE A :" +totalStudents);
-                percentage =(presentStudentsA/totalStudents)*100;
-                System.out.println("Weekly attendance Percentage of students in CSE-A section :" +percentage);
-            }else if(ch == 'B'){
-                System.out.println("Total students in CSE B:" +totalStudents);
-                percentage =(float)(presentStudentsB/totalStudents)*100;
-                System.out.println("Weekly attendance Percentage of students in CSE-B section :" +percentage);
-            }else{
-                System.out.println(ch+"section is not provided");
+                System.out.println("Total students in  CSE A :" + totalStudents);
+                percentage = (presentStudentsA / totalStudents) * 100;
+                System.out.println("Weekly attendance Percentage of students in CSE-A section :" + percentage);
+            } else if (ch == 'B') {
+                System.out.println("Total students in CSE B:" + totalStudents);
+                percentage = (float) (presentStudentsB / totalStudents) * 100;
+                System.out.println("Weekly attendance Percentage of students in CSE-B section :" + percentage);
+            } else {
+                System.out.println(ch + "section is not provided");
             }
-        }else{
+        } else {
             System.out.println("Another department is provided");
         }
     }
