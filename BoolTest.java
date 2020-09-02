@@ -5,9 +5,9 @@ public class BoolTest {
     public static void main(String args[]) {
         boolean b;
         b = false;
-        System.out.println("b is " + b);
+        System.out.println("b is false");
         b = true;
-        System.out.println("b is " + b);
+        System.out.println("b is true");
         //A boolean value can control the if statement
         if (b) System.out.println("This is executed.");
         b = false;

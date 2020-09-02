@@ -9,7 +9,6 @@ public class DataTypesInitialValues {
      double d;
      boolean t;
      String a;
-    //public static void main(String args[]){
         void Display(){
         System.out.println("byte (Initial Value) = " + b);
         System.out.println("short (Initial Value) = " + s);
