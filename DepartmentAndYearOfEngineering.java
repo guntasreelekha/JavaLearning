@@ -10,23 +10,11 @@ public class DepartmentAndYearOfEngineering {
         boolean flag = false;
         if (branch.equals("CSE")) {
             System.out.println("Student is studying in " + branch + " Department");
-            year = 5;
+            year = 3;
             for (totalYears = 1; totalYears <= 4; totalYears++) {
                 if (totalYears == year) {
-                    System.out.println("Student is studying  " + year + "st year");
                     flag = true;
                     break;
-                //} else if (year == 2) {
-                  //  System.out.println("Student is studying " + year + "nd year");
-                    //break;
-                //} else if (year == 3) {
-                  //  System.out.println("Student is studying " + year + "rd year");
-                    //break;
-                //} else if (year == 4) {
-                  //  System.out.println("Student is studying " + year + "th year");
-                    //break;
-               // } else {
-                 //   System.out.println("year " + year + " is not provided");
                 }
             }
             if(flag){
@@ -36,19 +24,17 @@ public class DepartmentAndYearOfEngineering {
             }
         } else if (branch.equals("ECE")) {
             System.out.println("Student is studying in " + branch + " Department");
+            year=3;
             for (totalYears = 1; totalYears <= 4; totalYears++) {
-                year = 4;
-                if (year == 1) {
-                    System.out.println("Student is studying " + year + "st year");
-                } else if (year == 2) {
-                    System.out.println("Student is studying " + year + "nd year");
-                } else if (year == 3) {
-                    System.out.println("Student is studying " + year + "rd year");
-                } else if (year == 4) {
-                    System.out.println("Student is studying " + year + "th year");
-                } else {
-                    System.out.println("year " + year + " is not provided");
+                if (totalYears == year) {
+                    flag=true;
+                    break;
                 }
+            }
+            if (flag){
+                System.out.println("Student is studying " + year + " year");
+            }else{
+                System.out.println("Not studying");
             }
         } else if (branch.equals("EEE")) {
             System.out.println("Student is studying in " + branch + " Department");
